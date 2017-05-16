@@ -34,7 +34,8 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-giphy-select": "^0.1.2"
   },
   "browserslist": [
     "> 1%"
