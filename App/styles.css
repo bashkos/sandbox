@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Khula');
+
+.app {
+  padding: 1em 2em 0;
+  width: 75%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.appTitle {
+  margin: 0;
+  font-family: 'Khula', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.appAuthor {
+  margin-left: 1em;
+  vertical-align: top;
+  font-size: 1.25rem;
+}

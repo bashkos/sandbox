@@ -1,7 +1,4 @@
-const { resolve } = require('path');
 const webpack = require('webpack');
-
-const docsDir = resolve(__dirname, 'docs');
 
 module.exports = {
   context: __dirname,
