@@ -32,10 +32,13 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "draft-js-emoji-plugin": "^2.0.0-rc1",
+    "draft-js-plugins-editor": "^2.0.0-rc1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-giphy-select": "^0.1.2"
+    "react-giphy-select": "^1.0.1",
+    "react-router-dom": "^4.1.1"
   },
   "browserslist": [
     "> 1%"

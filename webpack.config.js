@@ -1,3 +1,4 @@
+const { resolve } = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -56,4 +57,10 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
   ],
+  resolve: {
+    alias: {
+      '~components': resolve(__dirname, './componnets'),
+      '~pages': resolve(__dirname, './pages'),
+    },
+  },
 };

@@ -20,3 +20,14 @@
   vertical-align: top;
   font-size: 1.25rem;
 }
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.menuItem {
+  margin-right: 10px;
+}
